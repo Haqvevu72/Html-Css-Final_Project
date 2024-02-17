@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,li
+{
+    list-style: none;
+}
+
+/* header css */
+header .row-1
+{
+    display: flex;
+    flex-direction: row;
+    padding: 45px 16px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+header .row-2
+{
+    display: none;
+}
+
+header .row-1 .nav-bar
+{
+    display: none;
+}
+
+header .row-1 .logo-text
+{
+    display: none;
+}
+
+header .row-1 .column-2  .search-bar
+{
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    height: 48px;
+    width: 300px;
+    border-radius: 12px;
+    background: var(--Gray, #F5F5F5);
+}
+
+header .row-1 .column-2  .profile-div
+{
+    display: none;
+}
+
+header .row-1 .column-2  .bookmark-div
+{
+    display: none;
+}
+
+
+header .row-1 .column-2  .search-bar input
+{
+    border: none;
+    background: var(--Gray, #F5F5F5);
+    padding-bottom: 5px;
+    width: 220px;
+}
+
+header .row-1 .column-2  .search-bar input:focus
+{
+    outline: none;
+}
+
+/* main css */
+main
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 16px;
+}
+
+main .direct
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    word-spacing: 2px;
+    text-align: left;
+}
+
+main .direct .span-1
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    word-spacing: 3px;
+    text-align: left;
+}
+
+main .direct .span-2
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    word-spacing: 2px;
+    text-align: left;
+    display: none;
+}
+
+main .header-div
+{
+    padding-top: 35px;
+}
+
+main .header-div .header-txt
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0px;
+    text-align: left;
+    max-width: 355px;
+}
+
+main .header-div .header-image
+{
+    display: flex;
+    padding-top: 25px;
+    padding-right: 15px;
+    justify-content: center;
+}
+
+main .text-div
+{
+    padding-top: 40px;
+}
+
+main .text-div .text-header
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    max-width: 280px;
+}
+
+main .text-div .text
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: left;
+    max-width: 357px;
+}
+
+main .text-image
+{
+    padding: 25px 0;
+    display: flex;
+    justify-content: center;
+}
+main .text-div2
+{
+    padding-top: 10px;
+}
+
+main .text-div2 .text-header2
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+    max-width: 337px;
+}
+
+main .text-div2 .text2
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: left;
+    max-width: 357px;
+}
+
+main .tags
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    padding-top: 40px;
+    padding-right: 20px;
+}
+
+main .tags .part-2 .tag-img2
+{
+    display: none;
+}
+
+main .tags .part-2-1
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+main .ad
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-right: 20px;
+    padding-top: 35px;
+}
+
+main .ad .img-2
+{
+    display: none;
+}
+
+main .top-posts
+{
+    display: none;
+}
+
+main .comment-header1
+{
+    padding-top: 35px;
+    padding-right: 240px;
+}
+
+main .comment-header1 p
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    border-left: 4px solid #F81539;
+    padding-left: 5px;
+}
+
+main .comment-header2
+{
+    padding-right: 200px;
+    padding-top: 55px;
+}
+
+main .comment-header2 p
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    border-left: 4px solid #F81539;
+    padding-left: 5px;
+}
+
+main .comment-div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 45px;
+}
+
+main .comment-div .comment1
+{
+    background: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 354px;
+    height:  350px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+main .comment-div .comment2
+{
+    width: 351px;
+    height: 514px;
+    border-radius: 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 32px 0px #00000012;
+}
+
+main .comment-div .comment3
+{
+    width: 354px;
+    height: 205px;
+    border-radius: 12px;
+    background: #F5F5F5;
+    margin-top: 440px;
+}
+
+main .comment-div .comment1 .comment-text
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    padding: 20px 10px;
+    text-transform: capitalize;
+}
+
+main .comment-div .comment3 .comment-text
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    padding: 17px 10px;
+    text-transform: capitalize;
+}
+/* ------------------------------------- */
+main .add-comment-main-div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 35px;
+}
+
+main .add-comment-main-div .sub-comment-div-1
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+main .add-comment-main-div .sub-comment-div-1 .form-elements-1
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+main .add-comment-main-div .sub-comment-div-1 .form-elements-1 .form-element
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+main .add-comment-main-div .sub-comment-div-1 .form-elements-2 .form-element2
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+main .add-comment-main-div .sub-comment-div-1 .form-elements-2 .form-element2 label
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+main .add-comment-main-div .sub-comment-div-1 .form-elements-1 .form-element label
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+main .add-comment-main-div .sub-comment-div-1 .form-elements-1 .form-element input
+{
+    width: 358px;
+    height: 48px;
+    border-radius: 12px;
+    background: #F5F5F5;
+    border: none;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+main .add-comment-main-div .sub-comment-div-1 .form-elements-1 .form-element input:focus
+{
+    outline: none;
+}
+
+main .add-comment-main-div .sub-comment-div-1 .form-elements-2 .form-element2 textarea
+{
+    width: 358px;
+    height: 149px;
+    border-radius: 12px;
+    background: #F5F5F5;
+    border: none;
+    font-family: 16px;
+    padding: 20px;
+    resize: none;
+}
+
+main .add-comment-main-div .sub-comment-div-1 .form-elements-2 .form-element2 textarea:focus
+{
+    outline: none;
+}
+
+main .add-comment-main-div .sub-comment-div-1 .form-elements-2 .form-element2 textarea::placeholder
+{
+    padding: 2px;
+    font-family: 'Roboto' , sans-serif;
+}
+
+main .add-comment-main-div .sub-comment-div-2
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 15px;
+}
+
+main .add-comment-main-div .sub-comment-div-2 .rate-div
+{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 358px;
+    height: 107px;
+    border-radius: 12px;
+    background: #F5F5F5;
+}
+
+main .add-comment-main-div .sub-comment-div-2 .rate-div p
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+main .add-comment-main-div .sub-comment-div-2 .send
+{
+    align-self: flex-end;
+}
+
+main .cards
+{
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+    gap: 20px;
+}
+
+main .cards .card
+{
+    width: Fixed(358px);
+    height: Fixed(385px);
+    padding: 10px;
+    top: 60px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 32px 0px #00000012;
+}
+
+main .cards > div:nth-child(2)
+{
+    display: none;
+}
+
+main .cards > div:nth-child(3)
+{
+    display: none;
+}
+
+main .cards >  div:nth-child(4)
+{
+    display: none;
+}
+
+main .cards .card .title
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 15px 5px;
+}
+
+main .cards .card .desc
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    padding: 15px 5px;
+    max-width: 328px;
+}
+
+/* ----------------- */
+main .main-div1
+{
+    display: flex;
+    flex-direction: row;
+    gap: 110px;
+    padding: 0 12px;
+    align-items: center;
+}
+main .main-div1 .main-p1
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    border-left: 4px solid #F81539;
+    padding-left: 5px;
+}
+
+main .main-div1 .arrow-div
+{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+footer
+{
+    display: none;
+}

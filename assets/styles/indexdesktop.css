@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .row-2 
+{
+    display: none;
+}
+
+header 
+{
+    box-shadow: none;
+}
+ 
+header .row-1 .column-1 .nav-bar
+{
+    display: inline;
+    padding-top: 16px;
+}
+
+header .row-1 .column-1 .nav-bar .nav-bar-list
+{
+    display: flex;
+    gap: 30px;
+}
+
+header .row-1 .column-1 .nav-bar .nav-bar-list select
+{
+    border: none;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+header .row-1 .column-1 .nav-bar .nav-bar-list a
+{
+    border: none;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+header .row-1 .column-2  .search-bar
+{
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    height: 48px;
+    width: 210px;
+    border-radius: 12px;
+    background: var(--Gray, #F5F5F5);
+}
+
+header .row-1 .column-2  .search-bar input
+{
+    border: none;
+    background: var(--Gray, #F5F5F5);
+    padding-bottom: 5px;
+    width: 130px;
+}
+
+header .row-1 .column-2  .search-bar input:focus
+{
+    outline: none;
+}
+
+header
+{
+    height: 100px;
+}
+
+header .row-1 .column-1 .hamburger-icon
+{
+    display: none;
+}
+/* main */
+
+main
+{
+    padding-top: 0;
+}
+
+main .top-div img
+{
+    width: 1250px;   
+}
+
+main .top-div
+{
+    display: block;
+    align-self: center;
+}
+
+main .slider
+{
+    display: none;
+}
+
+main .main-div3 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    gap: 15px;
+}
+
+main .main-div3 img
+{
+    width: 290px;
+    height: 350px;
+}
+
+main .main-div1
+{
+    gap: 760px;
+}
+
+main .cards div:nth-child(3)
+{
+    display: inline;
+}
+
+main .cards div:nth-child(4)
+{
+    display: inline;
+}
+
+main .cards .card
+{
+    width: 290px;
+}
+
+main .cards .card img
+{
+    width: calc(100% - 1px);
+}
+
+
+
+main .football .calendar
+{
+    display: inline;
+}
+
+main .football .calendar img
+{
+    width: 325px
+}
+
+main .football .competition
+{
+    display: inline;
+}
+
+main .football .competition img
+{
+    width: 430px;
+}
+
+main .football .club-table
+{
+    display: inline;
+}
+
+main .football .club-table img
+{
+    width: 555px;
+}
+
+main .cards2
+{
+    display: grid;
+    grid-template-columns: repeat(2,604px);
+    padding: 20px 10px;
+    gap: 20px;
+}
+
+main .latest-videos
+{
+   height: 500px;
+}
+
+main .latest-videos .main-div1 .left-arrow , .right-arrow
+{
+    display: inline;
+}
+
+main .latest-videos .main-div1 .show-all
+{
+    display: none;
+}
+
+main .latest-videos .video-container .video-div img
+{
+    content: url('/assets/images/\ video3.png');
+    width: 514px;
+}
+
+main .latest-videos .video-container
+{
+    display: flex;
+    flex-direction: row;
+    padding-left: 110px;
+    align-items: center;
+    gap: 20px;
+}
+
+main .latest-videos .video-container .video-div
+{
+    justify-self: flex-start;
+}
+
+main .latest-videos .video-container .cards3
+{
+    display: grid;
+    grid-template-columns: repeat(2,350px);
+    align-self: flex-start;
+    padding-top: 23px;
+    gap: 10px;
+}
+
+main .latest-videos .video-container .cards3 .card3
+{
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    height: 150px;
+    border-radius: 12px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 32px 0px #00000012;
+}
+
+main .latest-videos .video-container .cards3 .card3 img
+{
+    padding: 10px;
+    width: 150px;
+}
+
+main .latest-videos .video-container .cards3 .card3 .video-descs
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+}
+
+main .latest-videos .video-container .cards3 .card3 .video-descs .p-1
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+main .latest-videos .video-container .cards3 .card3 .video-descs .p-2
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 8px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    text-transform: capitalize;
+    max-width: 300px;
+}
+
+main .air-div .air-div-1 img
+{
+    content: url('/assets/images/weather-widget.png');
+    width: 634px;
+}
+
+main .air-div 
+{
+    height: 550px;
+    gap: 20px;
+}
+
+main .air-div .cards4
+{
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    grid-template-rows: repeat(2,220px);
+    gap: 15px;
+    padding-top: 12px;
+}
+
+/* footer */
+footer
+{
+    display: flex;
+    overflow-x: hidden;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+footer .comment-container
+{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 20px;
+}
+
+footer .comment-container .footer-header
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    border-left: 4px solid #F81539;
+    padding-left: 5px;
+}
+
+footer .comment-container .comment
+{
+    background-color: #F5F5F5;
+    width: 300px;
+    height: 75px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer .comment-container .comment .p-1
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+footer .comment-container .comment .p-2
+{
+    font-family: 'Roboto' , sans-serif;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0px;
+}
+
+footer .comment-container .images
+{
+    display: grid;
+    grid-template-columns: repeat(3,104px);
+    gap: 20px;
+}

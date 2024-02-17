@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,li
+{
+    list-style: none;
+}
+
+header .row-1
+{
+    display: flex;
+    flex-direction: row;
+    padding: 45px 16px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+header .row-2
+{
+    display: none;
+}
+
+header .row-1 .nav-bar
+{
+    display: none;
+}
+
+header .row-1 .logo-text
+{
+    display: none;
+}
+
+header .row-1 .column-2  .search-bar
+{
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    height: 48px;
+    width: 300px;
+    border-radius: 12px;
+    background: var(--Gray, #F5F5F5);
+}
+
+header .row-1 .column-2  .profile-div
+{
+    display: none;
+}
+
+header .row-1 .column-2  .bookmark-div
+{
+    display: none;
+}
+
+
+header .row-1 .column-2  .search-bar input
+{
+    border: none;
+    background: var(--Gray, #F5F5F5);
+    padding-bottom: 5px;
+    width: 220px;
+}
+
+header .row-1 .column-2  .search-bar input:focus
+{
+    outline: none;
+}
+
+
+
+/* main */
+main .main-div1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 12px;
+    align-items: center;
+}
+main .main-div1 .main-p1
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    border-left: 4px solid #F81539;
+    padding-left: 5px;
+}
+
+main .main-div1 .arrow-div
+{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+main .main-div2
+{
+    display: none;
+}
+
+main .top-div
+{
+    display: none;
+}
+
+main .main-div3 
+{
+    display: none;
+}
+
+main .cards
+{
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+    gap: 20px;
+}
+
+main .cards .card
+{
+    width: Fixed(358px);
+    height: Fixed(385px);
+    padding: 10px;
+    top: 60px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 32px 0px #00000012;
+}
+
+main .cards > div:nth-child(2)
+{
+    display: none;
+}
+
+main .cards > div:nth-child(3)
+{
+    display: none;
+}
+
+main .cards >  div:nth-child(4)
+{
+    display: none;
+}
+
+main .cards .card .title
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 15px 5px;
+}
+
+main .cards .card .desc
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    padding: 15px 5px;
+    max-width: 328px;
+}
+
+main .football
+{
+    margin-top: 30px;
+    width: 100%;
+    height: 392px;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+    background-image: url('/assets/images/\ football-background.png');
+}
+
+main .football .competition
+{
+    display: none;
+}
+
+main .football .club-table
+{
+    display: none;
+}
+
+main .cards2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    gap: 20px;
+}
+
+main .cards2 .card2
+{
+    width: Fixed(358px);
+    height: Fixed(385px);
+    padding: 10px;
+    top: 60px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 32px 0px #00000012;
+}
+
+main .cards2 .card2 .part2
+{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding-top: 15px;
+}
+
+main .cards2 .card2 .part2 .title 
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+main .cards2 .card2 .part2 .desc 
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    text-align: left;
+    max-width: 328px;
+}
+
+main .cards2 > div:nth-child(2)
+{
+    display: none;
+}
+main .cards2 > div:nth-child(3)
+{
+    display: none;
+}
+main .cards2 > div:nth-child(4)
+{
+    display: none;
+}
+main .cards2 > div:nth-child(5)
+{
+    display: none;
+}
+main .cards2 > div:nth-child(6)
+{
+    display: none;
+}
+
+main .latest-videos
+{
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 445px;
+}
+
+main .latest-videos .main-div1 .left-arrow , .right-arrow
+{
+    display: none;
+}
+
+main .latest-videos .video-div
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+}
+
+main .latest-videos .video-container .cards3
+{
+    display: none;
+}
+
+main .air-div
+{
+    background: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    height: 335px;
+    align-items: center;
+}
+
+main .air-div .cards4
+{
+    display: none;
+}
+
+footer
+{
+    display: none;
+}

@@ -1,0 +1,377 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul , li 
+{
+    list-style: none;
+}
+
+header 
+{
+    display: flex;
+    flex-direction: column;
+    background: var(--White, #FFF);
+    height: 156px;
+
+    /* Shadow */
+    box-shadow: 0px 0px 32px 0px rgba(0, 0, 0, 0.07);
+}
+
+header .row-1 
+{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 70px;
+    justify-content: center;
+    gap: 174px;
+}
+
+header .row-1 .column-1
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+header .row-1 .column-1 p
+{
+    color: var(--Secondary, #FC4308);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 13px;
+}
+
+header .row-1 .column-1 .nav-bar
+{
+    display: none;
+}
+
+header .row-1 .column-2
+{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+header .row-1 .column-1 .hamburger
+{
+    display: block;
+}
+
+header .row-1 .column-2 .profile-list
+{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+header .row-1 .column-2 .profile-list p
+{
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* H5 */
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+    padding-top: 13px;
+}
+
+header .row-1 .column-2  .search-bar
+{
+    display: none;
+}
+
+
+header .row-2 
+{
+    display: flex;
+    justify-content: center;
+}
+
+header .row-2 .column-1
+{
+    display: flex;
+    flex-direction: row;
+    width: 604px;
+    padding: 16px 16px;
+    flex-shrink: 0;
+    align-items: center;
+    border-radius: 12px;
+    background: var(--Gray, #F5F5F5);
+}
+
+header .row-2 .column-1 input
+{
+    border: none;
+    background: var(--Gray, #F5F5F5);
+    padding: 0 20px;
+    padding-bottom: 5px;
+    width: 514px;
+}
+
+header .row-2 .column-1 input:focus
+{
+    outline: none;
+}
+
+header .row-2 .column-1 input::placeholder
+{
+    color: var(--Black-75, rgba(62, 50, 50, 0.75));
+    font-feature-settings: 'clig' off, 'liga' off;
+
+    /* Input text */
+    font-family: 'Roboto' , sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+header .row-2 .column-1 a:hover
+{
+    cursor: pointer;
+}
+
+header .row-1 .column-2  .profile-div
+{
+    display: inline;
+}
+
+header .row-1 .column-2  .bookmark-div
+{
+    display: inline;
+}
+
+header .row-1 .nav-bar
+{
+    display: inline;
+}
+
+header .row-1 .logo-text
+{
+    display: inline;
+}
+
+/* main css ... */
+main
+{
+    padding-top: 35px;
+}
+
+main .direct-div
+{
+    padding-right: 530px;
+}
+
+main .content-header
+{
+    padding-right: 420px;
+    padding-top: 45px;
+}
+
+main .direct-div .span-1
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+main .direct-div .span-2
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+main .content-header p
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    border-left: 4px solid #F81539;
+    padding-left: 5px;
+}
+
+main .top-categories img
+{
+    content: url('/assets/images/top-category2.png');
+}
+
+main .cards2 .card2
+{
+    width: 590px;
+    height: 210px;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+main .cards2 .card2 .main-image
+{
+    width: 210px;
+    height: 190px;
+}
+
+main .cards2
+{
+    display: grid;
+    grid-template-columns: 604px;
+    justify-content: center;
+    padding: 20px 10px;
+    gap: 20px;
+}
+
+main .pages
+{
+    padding-right: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* main css ... */
+
+/* Footer */
+footer
+{
+    display: flex;
+    overflow-x: hidden;
+    padding: 50px 0;
+}
+
+footer .f-container
+{
+    width: 698px;
+    height: 483px; 
+    background-color: #F5F5F5;
+    border-radius: 0 50px 50px 0;
+}
+
+footer .f-container .f-div-1
+{
+    display: grid;
+    padding: 40px 68px;
+    gap: 40px;
+    grid-template-columns: repeat(2,400px);
+}
+
+footer .f-container .f-div-1 .footer-header
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    border-left: 4px solid #F81539;
+    padding-left: 5px;
+}
+
+footer .f-container .f-div-1 .footer-text
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+}
+
+footer .f-container .f-div-1 .row-1
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer .f-container .f-div-1 .row-1 .mail
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 320px;
+    height: 48px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+}
+
+footer .f-container .f-div-1 .mail input
+{
+    border-radius: 12px;
+    border: none;
+    padding-left: 6px;
+}
+
+footer .f-container .f-div-1 .mail input:focus
+{
+    outline: none;
+}
+
+footer .f-container .f-div-2
+{
+    background: #3E32320D;
+    width: 674px;
+    height: 48px;
+    border-radius: 0 12px 12px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+footer .f-container .f-div-2 p
+{
+
+    font-family: 'Roboto' ,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0px;
+}
+
+footer .comment-container
+{
+    display: none;
+}
+
+footer .comment-container .images
+{
+    display: none;
+}

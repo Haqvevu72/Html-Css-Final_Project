@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header .row-2 
+{
+    display: none;
+}
+
+header 
+{
+    box-shadow: none;
+}
+ 
+header .row-1 .column-1 .nav-bar
+{
+    display: inline;
+    padding-top: 16px;
+}
+
+header .row-1 .column-1 .hamburger
+{
+    display:none;
+}
+
+header .row-1 .column-1 .nav-bar .nav-bar-list
+{
+    display: flex;
+    gap: 30px;
+}
+
+header .row-1 .column-1 .nav-bar .nav-bar-list select
+{
+    border: none;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+header .row-1 .column-1 .nav-bar .nav-bar-list a
+{
+    border: none;
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+header .row-1 .column-2  .search-bar
+{
+    display: flex;
+    flex-direction: row;
+    padding: 16px;
+    height: 48px;
+    width: 210px;
+    border-radius: 12px;
+    background: var(--Gray, #F5F5F5);
+}
+
+header .row-1 .column-2  .search-bar input
+{
+    border: none;
+    background: var(--Gray, #F5F5F5);
+    padding-bottom: 5px;
+}
+
+header .row-1 .column-2  .search-bar input:focus
+{
+    outline: none;
+}
+
+/* footer */
+footer
+{
+    display: flex;
+    overflow-x: hidden;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+footer .comment-container
+{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    gap: 20px;
+}
+
+footer .comment-container .footer-header
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    letter-spacing: 0px;
+    text-align: left;
+    border-left: 4px solid #F81539;
+    padding-left: 5px;
+}
+
+footer .comment-container .comment
+{
+    background-color: #F5F5F5;
+    width: 300px;
+    height: 75px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    padding: 20px;
+}
+
+footer .comment-container .comment .p-1
+{
+    font-family: 'Roboto' , sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+footer .comment-container .comment .p-2
+{
+    font-family: 'Roboto' , sans-serif;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 0px;
+}
+
+footer .comment-container .images
+{
+    display: grid;
+    grid-template-columns: repeat(3,104px);
+    gap: 20px;
+}
