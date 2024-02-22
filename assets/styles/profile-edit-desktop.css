@@ -250,6 +250,7 @@ main .form3 .text-editor .tool-div .tool-list .tool-5 img
 footer
 {
     display: flex;
+    justify-content: space-evenly;
     overflow-x: hidden;
     padding-top: 60px;
     padding-bottom: 30px;

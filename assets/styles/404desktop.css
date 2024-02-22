@@ -76,6 +76,7 @@ header .row-1 .column-2  .search-bar input:focus
 footer
 {
     display: flex;
+    justify-content: space-evenly;
     overflow-x: hidden;
     padding-top: 60px;
     padding-bottom: 30px;

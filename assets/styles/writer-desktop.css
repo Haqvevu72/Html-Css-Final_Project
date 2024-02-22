@@ -166,6 +166,7 @@ main .pages
 footer
 {
     display: flex;
+    justify-content: space-evenly;
     overflow-x: hidden;
     padding-top: 60px;
     padding-bottom: 30px;
